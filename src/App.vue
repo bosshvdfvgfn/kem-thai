@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div>
-      <video 
+      <video
         src="./assets/Output.mp4"
         playsinline
         style="pointer-events: none; width: 100vw; height: 60vh;"
@@ -45,7 +45,9 @@ export default {
       listVideos: [
         "./assets/kem_first.mp4",
         "./assets/kem_seqA.mp4",
-        "./assets/kem_seqB.mp4"
+        "./assets/kem_seqB.mp4",
+        "./assets/kem_mid_loop.mp4",
+        "./assests/kem_first_end.mp4"
       ]
     };
   },
